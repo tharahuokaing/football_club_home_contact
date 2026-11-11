@@ -5,9 +5,9 @@ Welcome to the official repository for Huokaing Thara Football Club (ក្ល�
 
 📌 Core Club Details & Motto
 
-"Health lives in peace, and sport is for health."
+"Sport lives in peace, and sport is for health."
 
-«សុខភាពរស់នៅក្នុងសន្តិភាព ហើយកីឡានាំមកនូវសុខភាព»
+«កីឡារស់នៅក្នុងសន្តិភាព ហើយកីឡានាំមកនូវសុខភាព»
 
 Club Name: Huokaing Thara Football Club (ក្លឹបបាល់ទាត់ ហួកាំង ថារ៉ា)
 
