@@ -1,0 +1,306 @@
+/* Styling for Huokaing Thara FC Home & Contact Page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Khmer OS Battambang, sans-serif;
+}
+
+body {
+    background-color: #0f172a;
+    color: #e2e8f0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header & Nav */
+header {
+    background: #090d16;
+    color: #fff;
+    padding: 1.2rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid #00f2fe;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 1.4rem;
+    color: #00f2fe;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover, .nav-links a.active {
+    color: #00f2fe;
+}
+
+.lang-switch button {
+    background: #00f2fe;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #090d16;
+    transition: transform 0.2s;
+}
+
+.lang-switch button:hover {
+    transform: scale(1.05);
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(9, 13, 22, 0.85), rgba(9, 13, 22, 0.95)), 
+                url('https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+    text-align: center;
+    padding: 6rem 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.badge {
+    display: inline-block;
+    background: rgba(0, 242, 254, 0.15);
+    color: #00f2fe;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(0, 242, 254, 0.3);
+}
+
+.hero-content h2 {
+    font-size: 2.8rem;
+    color: #f8fafc;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
+.motto-text {
+    font-size: 1.3rem;
+    color: #00f2fe;
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 12px 26px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.btn-primary {
+    background: #00f2fe;
+    color: #090d16;
+}
+
+.btn-primary:hover {
+    background: #00c6ff;
+    box-shadow: 0 0 15px rgba(0, 242, 254, 0.4);
+}
+
+.btn-secondary {
+    background: transparent;
+    color: #e2e8f0;
+    border: 2px solid #334155;
+}
+
+.btn-secondary:hover {
+    border-color: #00f2fe;
+    color: #00f2fe;
+}
+
+/* Sections */
+.section {
+    padding: 4rem 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: #00f2fe;
+}
+
+/* Card Grid */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.card {
+    background: #1e293b;
+    padding: 2.5rem 2rem;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
+.highlighted-card {
+    border: 2px solid #00f2fe;
+    box-shadow: 0 0 15px rgba(0, 242, 254, 0.15);
+}
+
+.card-icon {
+    font-size: 2.2rem;
+    color: #00f2fe;
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    font-size: 1.3rem;
+    color: #f8fafc;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    color: #94a3b8;
+    font-size: 0.95rem;
+}
+
+/* Contact Section */
+.contact-section {
+    background: #090d16;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    padding: 4rem 0;
+}
+
+.contact-lead {
+    text-align: center;
+    max-width: 650px;
+    margin: -1.5rem auto 3rem auto;
+    color: #94a3b8;
+    font-size: 1.1rem;
+}
+
+.contact-form-container {
+    max-width: 700px;
+    margin: auto;
+    background: #1e293b;
+    padding: 2.5rem;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+.form-group label {
+    display: block;
+    color: #cbd5e1;
+    margin-bottom: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 11px 14px;
+    background: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 0.95rem;
+}
+
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+    outline: none;
+    border-color: #00f2fe;
+}
+
+.btn-submit {
+    background: #00f2fe;
+    color: #090d16;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s;
+}
+
+.btn-submit:hover {
+    background: #00c6ff;
+}
+
+.success-msg {
+    margin-top: 1.5rem;
+    color: #00f2fe;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+    background: #05080f;
+    color: #94a3b8;
+    padding: 3rem 0 1rem 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer-content a {
+    color: #00f2fe;
+    text-decoration: none;
+}
+
+.social-icons a {
+    color: #e2e8f0;
+    font-size: 1.5rem;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #00f2fe;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    padding-top: 1rem;
+    font-size: 0.85rem;
+}
